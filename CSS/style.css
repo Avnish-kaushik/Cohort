@@ -1,0 +1,29 @@
+@font-face {
+  font-family: horror;
+  src: url(./Nightcore\ Demo.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+h1{
+  background-color: bisque;
+  color: brown;
+  font-size: 70px;
+  font-family: horror;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p{
+  color: blueviolet;
+}
