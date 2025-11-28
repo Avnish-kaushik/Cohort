@@ -13,17 +13,22 @@ html,body{
   width: 100%;
 }
 
+#box{
+  height: 300px;
+  width: 300px;
+  background-color: salmon;
+  margin: 60px;
+  padding: 20px;
+  border: 5px solid black;
+  border-radius: 50%;
+}
 h1{
-  background-color: bisque;
-  color: brown;
-  font-size: 70px;
-  font-family: horror;
-  font-weight: 500;
-  font-style: italic;
   text-align: center;
-  text-transform: uppercase;
 }
 
-p{
-  color: blueviolet;
+button{
+  margin: 100px;
+  padding: 15px 30px;
+  background-color: aqua;
+  border-radius: 50px;
 }
