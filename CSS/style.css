@@ -2,6 +2,10 @@
   font-family: horror;
   src: url(./Blood\ Victim\ Zombie.ttf);
 }
+@font-face {
+  font-family: sher;
+  src: url(./Nightcore\ Demo.ttf);
+}
 *{
   margin: 0;
   padding: 0;
@@ -12,33 +16,26 @@ html,body{
   height: 100%;
   width: 100%;
 }
-
-/* #box{
-  position: relative;
-  height: 400px;
-  width: 400px;
-  background-color:blanchedalmond;
-}
-
-#small{
-  height: 100px;
-  width: 100px;
-  background-color:brown;
-  position: absolute;
-  left: 35%;
-  top: 35%;
-} */
-
-#homepage{
+#parent{
+  height: 100%;
   width: 100%;
-  height: 3000px;
-  background-color: burlywood;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-#side{
- width: 30px;
- height: 100px;
- position: fixed;
- background-color: brown;
- right: 20%;
- bottom: 50%;
+#box1{
+  height: 200px;
+  width: 200px;
+  background-color: blueviolet;
+}
+#box2{
+  height: 200px;
+  width: 200px;
+  background-color:brown;
+}
+#box3{
+  height: 200px;
+  width: 200px;
+  background-color: burlywood;
 }
