@@ -1,63 +1,55 @@
-@font-face {
-  font-family: horror;
-  src: url(./Blood\ Victim\ Zombie.ttf);
-}
-@font-face {
-  font-family: sher;
-  src: url(./Nightcore\ Demo.ttf);
-}
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
-html,body{
-  height: 100%;
-  width: 100%;
+html,
+body {
+    height: 100%;
+    width: 100%;
 }
-.card{
-  height: 300px;
-  width: 350px;
-  background-color: darkseagreen;
-  border-radius: 10px;
-  position: relative;
-  transition: all ease 1s;
-  overflow: hidden;
+#parent{
+    height: 400px;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    display: flex;
+    gap: 15px;
+    flex-wrap: nowrap;
+    overflow: auto;
+    /* grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%; */
+}
+#parent::-webkit-scrollbar{
+    background-color: lightskyblue;
+}
+#parent::-webkit-scrollbar-thumb{
+    background-color: royalblue;
+}
+/* h1{
+    /* font-size: 200px; */
+    /* background-image: url(https://i.pinimg.com/736x/e5/25/48/e52548a5cd5915eea1de6d2b7942af4e.jpg);
+    background-size: cover;
+    background-clip: text; */
+    /* color: transparent;
+    text-align: center;
+    -webkit-text-stroke: 3px white; */
+    
+/* .box:nth-child(2n){
+    background-color: blanchedalmond;
+} */
+
+.child{
+    height: 100%;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    flex-shrink: 0;
 }
 
-.card img{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-position: bottom;
-}
-
-.bottom{
-  display: flex;
-  justify-content: space-between;
-  padding: 5px;
-  height: 40%;
-  width: 100%;
-  background:linear-gradient(transparent, black);
-  position: absolute;
-  bottom: -40%;
-
-  transition: all ease 0.5s;
-}
-
-#main{
-  height: 100%;
-  width: 100%;
-  padding: 25px;
-  background-color: lightblue;
-
-}
-.card:hover .bottom{
-  bottom: 0;
-}
-.bottom h3{
-  color: white;
-}
-.bottom h3 i:hover{
-  color: red;
+.child img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
 }
