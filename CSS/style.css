@@ -15,27 +15,37 @@ main{
     width: 100%;
     background-color: black;
     display: grid;
-    grid-template-columns: 200px 1fr 1fr;
-    grid-template-rows: 70px 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 75px 1fr 0.5fr 0.5fr;
     grid-gap: 20px;
     padding: 20px;
     grid-template-areas: "header header header"
-                         "aside section section"
-                         "footer footer footer";
+                         "section section section"
+                         "div-left bottom-up div-right"
+                         "div-left bottom-down div-right";
 }
 header{
     grid-area: header;
     background-color: brown;
 }
-aside{
-    grid-area: aside;
-    background-color: cadetblue;
-}
+
 section{
     grid-area: section;     
     background-color: burlywood;
 }
-footer{
-    grid-area: footer;
+#div-left{
+    grid-area: div-left;
     background-color: cornflowerblue;
+}
+#div-right{
+    grid-area: div-right;
+    background-color: cornflowerblue;
+}
+#bottom-up{
+    grid-area: bottom-up;
+    background-color: cornsilk;
+}
+#bottom-down{
+    grid-area: bottom-down;
+    background-color: crimson;
 }
