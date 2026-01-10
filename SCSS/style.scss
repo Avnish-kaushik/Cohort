@@ -8,23 +8,40 @@ html,body{
   width: 100%;
 }
 
-@mixin button-style($color){
-  background-color: $color;
-  color: white;
-  border: none;
-  padding: 20px 30px;
-  font-size: 16px;
-  border-radius: 5px;
-  border: none;
-  outline: none;
-  cursor: pointer;
-}
+main{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 20px;
 
-.blue{
-  padding: 10px;
-  @include button-style(#007bff);
-}
-.red{
-  padding: 10px;
-  @include button-style(#dc3545);
+  section{
+    height: 100%;
+    flex-grow: 1;
+    background-color: rgb(161, 106, 86);
+    background-position: center;
+    transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+    cursor: pointer;
+  }
+
+  section:hover{
+    flex-grow: 3;
+    
+  }
+
+  section:nth-child(1) {
+    background-image: url(https://i.pinimg.com/736x/68/9a/21/689a21b318f5499a18785e507cf99fae.jpg);
+  }
+  section:nth-child(2) {
+    background-image: url(https://i.pinimg.com/736x/a9/7d/0b/a97d0b0077263f8c3e9e82032fa17ef7.jpg);
+  }
+  section:nth-child(3) {
+    background-image: url(https://i.pinimg.com/736x/13/21/03/1321032d0c4306d4df076894aa7f1927.jpg);
+  }
+  section:nth-child(4) {
+    background-image: url(https://i.pinimg.com/736x/c0/22/90/c0229039117a76ad9930335fadf74345.jpg);
+  }
+  section:nth-child(5) {
+    background-image: url(https://i.pinimg.com/1200x/8c/4e/bb/8c4ebbff967c8738b9d6dc7e0b715543.jpg);
+  }
+
 }
