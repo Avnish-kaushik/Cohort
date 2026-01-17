@@ -9,35 +9,57 @@ html, body {
   width: 100%;
 }
 
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(244, 244, 244);
+}
+
+body {
+  background-color: #1d1d1d;
+}
+
 main {
-  height: 100%;
   width: 100%;
   display: flex;
-  gap: 20px;
+  flex-direction: column;
+  gap: 0rem;
 }
 main section {
-  height: 100%;
-  flex-grow: 1;
-  background-color: rgb(161, 106, 86);
-  background-position: center;
-  transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
-  cursor: pointer;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
 }
-main section:hover {
-  flex-grow: 3;
+main section .top {
+  width: 100%;
 }
-main section:nth-child(1) {
-  background-image: url(https://i.pinimg.com/736x/68/9a/21/689a21b318f5499a18785e507cf99fae.jpg);
+main section .top img {
+  width: 100%;
+  border-radius: 10px;
 }
-main section:nth-child(2) {
-  background-image: url(https://i.pinimg.com/736x/a9/7d/0b/a97d0b0077263f8c3e9e82032fa17ef7.jpg);
+main section .botttom {
+  background-color: #292929;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
-main section:nth-child(3) {
-  background-image: url(https://i.pinimg.com/736x/13/21/03/1321032d0c4306d4df076894aa7f1927.jpg);
+main section .botttom .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
 }
-main section:nth-child(4) {
-  background-image: url(https://i.pinimg.com/736x/c0/22/90/c0229039117a76ad9930335fadf74345.jpg);
+main section .botttom .text h1 {
+  font-weight: 200;
+  font-size: 2.8rem;
 }
-main section:nth-child(5) {
-  background-image: url(https://i.pinimg.com/1200x/8c/4e/bb/8c4ebbff967c8738b9d6dc7e0b715543.jpg);
+main section .botttom .text p {
+  font-weight: 300;
+  opacity: 0.8;
+}
+main section .botttom .text button {
+  width: -moz-fit-content;
+  width: fit-content;
 }/*# sourceMappingURL=style.css.map */
