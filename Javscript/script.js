@@ -32,3 +32,19 @@ console.error("Avi");
 
 // Airthmetic Operator
 // + - * / % **
+
+// Assignment Operator
+// = += -= *= /=
+
+// Ternary Operator
+// (? : ) condition ? true : false
+
+// Logical Operators
+// &&-> And || -> Or ! -> Not
+
+// Comparison Operators
+// == != === !== > < >= <=
+
+// NOTE : === Always use this over the ==
+// === checks both value and type, while == only checks value.
+// 
