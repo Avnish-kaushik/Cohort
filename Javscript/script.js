@@ -87,3 +87,47 @@
 //   console.log(i);
 // }
 
+// let age = prompt("Enter your age:");
+
+// if(age === null){
+//   console.error("Age is null");
+// } else {
+//   if(age.trim() === ""){
+//     console.error("Age is empty");
+//   } else {
+//     age = Number(age);
+//     if(isNaN(age)){
+//       console.error("Age is not a number");
+//     }else{
+//       if(age >0 && age >= 18) console.log("You are eligible to vote");
+//       else if(age < 18 && age > 0) console.log("You are not eligible to vote");
+//       else console.log("Invalid age");
+//     }
+//   }
+// }
+
+// let n = 75;
+// for (let i = 1; i <= 10 ; i++) {
+//   console.log(`${n} x ${i} = ${n * i}`); 
+// }
+
+// let count = 0;
+// for (let i = 1; i <= 15 ; i++) {
+//   if(i > 8){
+//     count++;   
+//   }
+// }
+// console.log(count);
+
+// let count = 0;
+// let pass = prompt("Enter your password:");
+// count++;
+
+// while(pass !== "stop") {
+//   if(count === 3){
+//   console.error("You have exceeded the maximum attempts.");
+//   break;
+// }
+//   pass = prompt("Enter your password:");
+//   count++;
+// }
