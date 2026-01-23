@@ -168,3 +168,28 @@
 //   console.log(i);
 // }
 
+// let balance = 1000;
+// let amt = +prompt("Enter the amount to withdraw:");
+
+// if(amt > balance){
+//   console.error("Insufficient balance");
+// } else {
+//   console.log(`Withdrawal successful. Remaining balance: ${balance - amt}`);
+// }
+
+// do..while in JS
+// let i = 1;
+// do{
+//   console.log(i);
+//   i++;
+// } while(i <= 5);
+
+
+// FUNCTIONS IN JAVASCRIPT-----------------------------------------------------------------------------------
+// functions are reusable blocks of code that perform a specific task.
+
+// function doSomething(){
+//   console.log(arguments[0]);
+  
+// }
+// doSomething("hello", "world");
