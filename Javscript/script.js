@@ -122,7 +122,6 @@
 // let count = 0;
 // let pass = prompt("Enter your password:");
 // count++;
-
 // while(pass !== "stop") {
 //   if(count === 3){
 //   console.error("You have exceeded the maximum attempts.");
@@ -131,3 +130,41 @@
 //   pass = prompt("Enter your password:");
 //   count++;
 // }
+
+// let word = prompt("Enter a word:");
+// let count = 0;
+// while(word !== "stop"){
+//   if(word === "yes"){
+//     count++;
+//   }
+//   word = prompt("Enter a word:");
+// }
+// console.log(`total times yes count : ${count}`);
+
+// for(let i = 0; i < 50; i++){
+//   if(i % 7 === 0){
+//     console.log(i);
+//   }
+// }
+
+// let sum = 0;
+// for(let i = 1; i < 31; i++){
+//   if(i % 2 !== 0){
+//     sum += i;
+//   }
+// }
+// console.log(sum);
+
+// let num = +prompt("Enter a number:");
+// while(num % 2 !== 0){
+//   num = +prompt("Enter a number:");
+// }
+// console.log(`number is : ${num}`);
+
+// let inp1 = +prompt("Enter the starting number:");
+// let inp2 = +prompt("Enter the ending number:");
+
+// for(let i = inp1; i <= inp2; i++){
+//   console.log(i);
+// }
+
