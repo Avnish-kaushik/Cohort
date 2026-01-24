@@ -193,3 +193,24 @@
   
 // }
 // doSomething("hello", "world");
+
+// Rest Parameters
+// function abcd(a,b,...c){
+// console.log(a,b,c);
+
+// }
+// abcd(1, 2, 3, 4, 5)
+
+// Hoisting
+// it is a mechanism in JavaScript where variables and function 
+// declarations are moved to the top of their scope before code execution.
+// abcd(); --> hello
+// function abcd(){         
+//   console.log("hello");      Allowed function hoisting only
+
+// }
+// a(); ---> Not a function
+// var a = function abcd(){
+//   console.log("Hello");       Variable hoisting is not allowed
+  // }
+// }
