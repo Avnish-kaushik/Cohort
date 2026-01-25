@@ -214,3 +214,27 @@
 //   console.log("Hello");       Variable hoisting is not allowed
   // }
 // }
+
+// function abcd(a, b) {   // if we make parameters and don't 
+//   console.log(a, b);    // pass arguments, it will be undefined
+// }                       // and they are called the required parameters.
+// abcd()
+
+// function abcd({name,age}){
+//   console.log(name);
+//   console.log(age);
+  
+//                             // Destructured parameters in javascript
+// }
+// abcd({name:"Avnish", age:20});
+
+// function abcd(a,b,c = 0){
+//   console.log(a,b,c);
+//                           // when a value of any parameter is not passed,
+//                           // it will become undefined. To solve this we 
+//                           // assign the default values in case of no argument
+//                           // is passed by the user.
+// }
+// abcd(1,2);
+
+
