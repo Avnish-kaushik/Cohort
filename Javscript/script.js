@@ -237,4 +237,71 @@
 // }
 // abcd(1,2);
 
+// function abcd(a,b,c,d){
+//   console.log(a,b,c,d);
+  
+// }
+// let arr = [1,2,3,4];
+// abcd(...arr);            // Spread Operator 
 
+// function abcd(){
+//   function defg(){         // Nested Function : function inside the function
+//     console.log("defg chalega");
+//   }
+//   defg();
+// }
+// abcd();
+
+// let a = 12;        // Gloabl Scope variable
+// function abcd(){
+//   let b = 13;       // Local Scope variable, 
+//                     // only be used inside the paarticular block of code
+//   function defg(){
+//     console.log(b);
+    
+//   }
+// }
+// abcd();
+
+// (function abcd(){   // Immediately Invoked Expression : used to make the 
+//                     // private variables
+// let balance = 8000;
+// })();
+
+// let fnc = () =>{         // Arrow function or Fat Arrow function
+//   console.log("Hello");
+  
+// }
+// fnc();
+
+// function() {                // Anonymous Function
+//   console.log("Hello Bhai");
+  
+// }
+
+// function abcd(){ // Higher Order function : A function that can return 
+                   //  another function Or it can accept the another 
+                   // function in his parameter
+//  return function(){
+
+// }
+// }
+// function abcd(a){
+
+// }
+// abcd(function (){
+
+// })
+
+// function abcd(v){
+
+// }
+// abcd(function (){  // Function that is passed as an argument 
+                      // to a function is called Callback function
+
+// })
+
+// First Class Function is a concept where function can be used as value or variable
+// let a = 12;
+// let b = function () {
+// }
