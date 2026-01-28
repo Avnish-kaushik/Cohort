@@ -305,3 +305,39 @@
 // let a = 12;
 // let b = function () {
 // }
+
+// Pure Function is the function that always returns the same output for the 
+// same input and does not have any side effects.
+// let a = 12;
+// function abcd(val){
+//     console.log(val + 2);
+    
+// }
+// abcd(a);
+// abcd(a);
+// abcd(a);
+// abcd(a);
+
+// Impure Funnction is the function that has side effects or 
+// depends on external state.
+// let a = 12;
+// function abcd(val){
+//   a = Math.random() + val;
+//   console.log(a);
+  
+// }
+// abcd(a)
+// abcd(a)
+// abcd(a)
+
+// Closure is a concept in JavaScript where an inner function has access 
+// to the variables and parameters of its outer function, even after the 
+// outer function has finished executing.
+// function abcd(){
+//   let a = 12;
+//   return(function efgh(){
+//     console.log(a);
+//   })
+// }
+// abcd();
+
