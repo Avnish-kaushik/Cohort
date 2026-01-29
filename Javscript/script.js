@@ -341,3 +341,45 @@
 // }
 // abcd();
 
+// --------------------------------------------------------------------------------------------------------------------------------
+// Array is a data structure in JavaScript that stores multiple 
+// values in a single variable.
+// let arr = [5,6,8,3,1,9,0,8,4];
+// console.log(arr);
+// arr.pop()
+// console.log(arr);
+// arr.shift()
+// console.log(arr);
+// arr.unshift(10)
+// console.log(arr);
+// let arr2 =arr.filter(function(val){
+//   return val > 5;
+// })
+// console.log(arr2);
+
+// Iterating Over Array-------------------------------------------------------------------------------------------------------
+// let arr = [5,6,8,3,1,9,0,8,4];
+// for(let i = 0; i < arr.length; i++){
+//   console.log(arr[i]);
+// }
+// arr.forEach(function(val){
+//   console.log(val);
+// })
+
+// Understanding Objects in JS--------------------------------------------------------------------------------------------------
+// let obj = {
+//   name:"Avi",
+//   age:25,
+//   email:"avi@gmail.com"
+// };
+// let obj2 = new Object();
+// console.log(obj.name);
+// let obj = {
+//   name:"Avi",
+//   age:25,
+//   email:"avi@gmail.com",
+//   socials:{
+//     instagram:"avi_insta",
+//     facebook:"avi_fb"
+//   }
+// };
