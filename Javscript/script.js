@@ -430,3 +430,18 @@
 // Object.freeze(user);
 // user.age = 27;
 
+// INTRODUCTION TO DOM --------------------------------------------------------------------------------------------------------------------------
+// var body = document.querySelector('body')
+// body.style.backgroundColor = "black"
+
+// // var h1 = document.querySelector('h1')
+// // h1.innerHTML = "hello bhai "
+// // h1.style.color = "lightskyblue"
+
+// var box = document.querySelector('#box')
+// box.innerHTML = "Hello from DOM !"
+// box.addEventListener("click", function(){
+//   box.style.backgroundColor = "lightcoral";
+//   console.log("Raang badal gya bhai...");
+  
+// })
