@@ -383,3 +383,50 @@
 //     facebook:"avi_fb"
 //   }
 // };
+
+// function abcd(obj){
+//   console.log(obj.age);
+  
+// }
+// abcd({name:"Avi", age:25})
+// function abcd({name,age}){      // destructuring of the object
+//   console.log(name,age);
+  
+// }
+// abcd({name:"Avi", age:25})
+
+// let obj = {
+//   name: "Avnish",
+//   fnc: function (){
+//     console.log(this);
+    
+//   }
+// }
+// obj.fnc();
+
+// let arr = [1,2,3,4,5,6,7,8,9,13,14,16,18];
+// let arr2 = arr.filter(function(val){
+//   return val % 2 === 0;
+// })
+// console.log(arr2);
+
+// let arr = [1000, 500, 2000, 1500, 3000];
+// let sum = arr.reduce(function(prev, curr){
+//   return prev + curr;
+// })
+// console.log(sum);
+
+// let names = ["Avi", "Rahul", "Sneha", "Priya", "Amit"];
+// let ans = names.some(function(name){
+//   return name.length > 4;
+// })
+// console.log(ans);
+
+// let user = {
+//   name: "harsh",
+//   age: 23,
+//   email:"hehe@male.com"
+// }
+// Object.freeze(user);
+// user.age = 27;
+
