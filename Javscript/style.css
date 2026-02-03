@@ -8,9 +8,38 @@ html,body{
   width: 100%;
 }
 
+body{
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+}
+
 #box{
   height: 250px;
   width: 250px;
-  background-color: royalblue;
+  background-color: rgb(30, 90, 50);
+  border: 3px solid white;
+  border-radius: 10px;
+
+}
+button{
+  padding: 10px 20px;
+  background-color: lightskyblue;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: lightseagreen;
+}
+
+button:active{
+  scale: 0.95;
   
 }
