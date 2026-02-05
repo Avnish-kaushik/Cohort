@@ -517,3 +517,25 @@
 // setTimeout(()=>{
 // clearInterval(int)
 // },50000)
+
+var btn = document.querySelector('button')
+var h2 = document.querySelector('h2')
+var inner = document.querySelector('.inner')
+
+btn.addEventListener('click',function(){
+  btn.style.pointerEvents = "none";
+  var num = Math.floor(Math.random() * 50) + 50;
+  var a = 0;
+  var int = setInterval(()=>{
+    a++;
+    h2.innerHTML = a + "%";
+    inner.style.width = a + "%";
+  },num)
+  setTimeout(()=>{
+    clearInterval(int)
+    btn.innerHTML = "Downloaded"
+    btn.style.opacity = "0.5";
+    console.log("Downloaded in " + num/10 + " seconds");
+    
+  },num * 100)
+})
