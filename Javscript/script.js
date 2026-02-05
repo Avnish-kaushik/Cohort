@@ -465,25 +465,55 @@
 // })
 
 
-// CREATIING ELEMENT----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-var btn = document.querySelector('button')
-var main = document.querySelector('main')
+// CREATING ELEMENT----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// var btn = document.querySelector('button')
+// var main = document.querySelector('main')
 
-btn.addEventListener('click',function(){
-  var div = document.createElement("div")
-  var x = Math.random() * 100
-  var y = Math.random() *100
-  var r = Math.random() * 100
-  var c1 = Math.floor(Math.random() * 256)
-  var c2 = Math.floor(Math.random() * 256)
-  var c3 = Math.floor(Math.random() * 256)
+// btn.addEventListener('click',function(){
+//   var div = document.createElement("div")
+//   var x = Math.random() * 100
+//   var y = Math.random() *100
+//   var r = Math.random() * 100
+//   var c1 = Math.floor(Math.random() * 256)
+//   var c2 = Math.floor(Math.random() * 256)
+//   var c3 = Math.floor(Math.random() * 256)
 
-  div.style.width = "100px";
-  div.style.height = "100px";
-  div.style.position = "absolute";
-  div.style.left = x + "%";
-  div.style.top = y + "%";
-  div.style.transform = `rotate(${r}deg)`
-  div.style.backgroundColor = `rgb(${c1},${c2},${c3})`;
-  main.appendChild(div);
-})
+//   div.style.width = "100px";
+//   div.style.height = "100px";
+//   div.style.position = "absolute";
+//   div.style.left = x + "%";
+//   div.style.top = y + "%";
+//   div.style.transform = `rotate(${r}deg)`
+//   div.style.backgroundColor = `rgb(${c1},${c2},${c3})`;
+//   main.appendChild(div);
+// })
+
+
+// SETTIMEOUT-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// console.log("Hello1");
+// setTimeout(()=>{
+//   console.log("hello2");
+  
+// },1000)
+// console.log("Hello3");
+// var user = "Akash"
+// var btn =document.querySelector('button')
+// var h1 = document.querySelector('h1')
+
+// btn.addEventListener('click',()=>{
+//   h1.innerHTML = `Hello I'm ${user}`;
+//   setTimeout(()=>{
+//     console.log("Change ho gya kya user ?");
+    
+//   },3000)
+  
+// })
+
+// var a = 0
+// var int = setInterval(()=>{
+//   a++;
+//   console.log(a);
+// },1)
+// setTimeout(()=>{
+// clearInterval(int)
+// },50000)
