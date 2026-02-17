@@ -539,15 +539,40 @@
 //   },num * 100)
 // })
 
-var img = document.querySelector('img')
-var love = document.querySelector('#love')
+// var img = document.querySelector('img')
+// var love = document.querySelector('#love')
 
-img.addEventListener('dblclick',function(){
-  love.style.opacity = 1;
-  love.style.color = "red";
-  love.style.transform = "translate(-50%, -50%) scale(1.5)";
-  setTimeout(()=>{
-    love.style.opacity = 0;
-    love.style.transform = "translate(-50%, -50%) scale(0)";
-  },1000) 
+// img.addEventListener('dblclick',function(){
+//   love.style.opacity = 1;
+//   love.style.color = "red";
+//   love.style.transform = "translate(-50%, -50%) scale(1.5)";
+//   setTimeout(()=>{
+//     love.style.opacity = 0;
+//     love.style.transform = "translate(-50%, -50%) scale(0)";
+//   },1000) 
+// })
+
+// var box = document.getElementById('box')
+// box.addEventListener('mouseleave', function(){
+//   box.style.backgroundColor = "lightcoral";
+//   console.log("Raang badal gya bhai...");
+// })
+
+// var img =document.querySelector('img')
+// var msg = document.querySelector('h2 span')
+
+// img.addEventListener('mouseenter', function(){
+//   msg.innerHTML = "Ladoo Khane ka mann kar raha hai !";
+// })
+// img.addEventListener('mouseleave', function(){
+//   msg.innerHTML = "__________";
+// })
+
+var main = document.getElementById('main')
+var cursor = document.getElementById('cursor')
+
+main.addEventListener('mousemove', function(elem){
+  cursor.style.left = elem.x+ "px";
+  cursor.style.top = elem.y + "px";
+  
 })
