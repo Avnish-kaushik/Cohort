@@ -568,11 +568,31 @@
 //   msg.innerHTML = "__________";
 // })
 
-var main = document.getElementById('main')
-var cursor = document.getElementById('cursor')
+// var main = document.getElementById('main')
+// var cursor = document.getElementById('cursor')
 
-main.addEventListener('mousemove', function(elem){
-  cursor.style.left = elem.x+ "px";
-  cursor.style.top = elem.y + "px";
+// main.addEventListener('mousemove', function(elem){
+//   cursor.style.left = elem.x+ "px";
+//   cursor.style.top = elem.y + "px";
+  
+// })
+
+// var body = document.querySelector('body')
+// var h1 = document.querySelector('h1')
+
+// body.addEventListener('keydown', function(elem){
+//    h1.innerHTML = `You pressed ${elem.key}`;
+   
+// })
+  
+// var allH1 = document.querySelectorAll('h1')
+
+// var outer = document.querySelector('#outer')
+// console.log(outer.childNodes);
+
+var elem = document.querySelectorAll('.elem')
+
+elem.forEach(function(el){
+  console.log(el);
   
 })

@@ -11,17 +11,21 @@ html,body{
 
 body{
   background-color: #111;
-  cursor: none;
- 
 }
-#main{
-  height: 100%;
-  width: 100%;
-  background-color: #172227;
+.elem{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:30px;
+  background-color: #333;
+  border-radius: 10px;
+  margin-top: 10px;
 }
-
-#cursor{
-  height: 20px;
-  transform: translate(-50%,-50%);
-  position: fixed;
+button{
+  padding: 10px 20px;
+  background-color: royalblue;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
 }
