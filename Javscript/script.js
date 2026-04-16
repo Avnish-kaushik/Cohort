@@ -190,7 +190,7 @@
 
 // function doSomething(){
 //   console.log(arguments[0]);
-  
+
 // }
 // doSomething("hello", "world");
 
@@ -212,7 +212,7 @@
 // a(); ---> Not a function
 // var a = function abcd(){
 //   console.log("Hello");       Variable hoisting is not allowed
-  // }
+// }
 // }
 
 // function abcd(a, b) {   // if we make parameters and don't 
@@ -223,7 +223,7 @@
 // function abcd({name,age}){
 //   console.log(name);
 //   console.log(age);
-  
+
 //                             // Destructured parameters in javascript
 // }
 // abcd({name:"Avnish", age:20});
@@ -239,7 +239,7 @@
 
 // function abcd(a,b,c,d){
 //   console.log(a,b,c,d);
-  
+
 // }
 // let arr = [1,2,3,4];
 // abcd(...arr);            // Spread Operator 
@@ -258,7 +258,7 @@
 //                     // only be used inside the paarticular block of code
 //   function defg(){
 //     console.log(b);
-    
+
 //   }
 // }
 // abcd();
@@ -270,18 +270,18 @@
 
 // let fnc = () =>{         // Arrow function or Fat Arrow function
 //   console.log("Hello");
-  
+
 // }
 // fnc();
 
 // function() {                // Anonymous Function
 //   console.log("Hello Bhai");
-  
+
 // }
 
 // function abcd(){ // Higher Order function : A function that can return 
-                   //  another function Or it can accept the another 
-                   // function in his parameter
+//  another function Or it can accept the another 
+// function in his parameter
 //  return function(){
 
 // }
@@ -297,7 +297,7 @@
 
 // }
 // abcd(function (){  // Function that is passed as an argument 
-                      // to a function is called Callback function
+// to a function is called Callback function
 
 // })
 
@@ -311,7 +311,7 @@
 // let a = 12;
 // function abcd(val){
 //     console.log(val + 2);
-    
+
 // }
 // abcd(a);
 // abcd(a);
@@ -324,7 +324,7 @@
 // function abcd(val){
 //   a = Math.random() + val;
 //   console.log(a);
-  
+
 // }
 // abcd(a)
 // abcd(a)
@@ -386,12 +386,12 @@
 
 // function abcd(obj){
 //   console.log(obj.age);
-  
+
 // }
 // abcd({name:"Avi", age:25})
 // function abcd({name,age}){      // destructuring of the object
 //   console.log(name,age);
-  
+
 // }
 // abcd({name:"Avi", age:25})
 
@@ -399,7 +399,7 @@
 //   name: "Avnish",
 //   fnc: function (){
 //     console.log(this);
-    
+
 //   }
 // }
 // obj.fnc();
@@ -443,7 +443,7 @@
 // box.addEventListener("click", function(){
 //   box.style.backgroundColor = "lightcoral";
 //   console.log("Raang badal gya bhai...");
-  
+
 // })
 
 
@@ -461,7 +461,7 @@
 //   var c2 = Math.floor(Math.random() * 256)
 //   var c3 = Math.floor(Math.random() * 256)
 //   box.style.backgroundColor = `rgb(${c1},${c2},${c3})`;
-  
+
 // })
 
 
@@ -493,7 +493,7 @@
 // console.log("Hello1");
 // setTimeout(()=>{
 //   console.log("hello2");
-  
+
 // },1000)
 // console.log("Hello3");
 // var user = "Akash"
@@ -504,9 +504,9 @@
 //   h1.innerHTML = `Hello I'm ${user}`;
 //   setTimeout(()=>{
 //     console.log("Change ho gya kya user ?");
-    
+
 //   },3000)
-  
+
 // })
 
 // var a = 0
@@ -574,7 +574,7 @@
 // main.addEventListener('mousemove', function(elem){
 //   cursor.style.left = elem.x+ "px";
 //   cursor.style.top = elem.y + "px";
-  
+
 // })
 
 // var body = document.querySelector('body')
@@ -582,9 +582,9 @@
 
 // body.addEventListener('keydown', function(elem){
 //    h1.innerHTML = `You pressed ${elem.key}`;
-   
+
 // })
-  
+
 // var allH1 = document.querySelectorAll('h1')
 
 // var outer = document.querySelector('#outer')
@@ -600,163 +600,184 @@
 //     }
 //   })
 // })
-const reels = [
-    {
-        username: "codewithayush",
-        likeCount: 14820,
-        isLiked: false,
-        commentCount: 423,
-        shareCount: 92,
-        isFollowed: false,
-        caption: "Dark mode > light mode. Change my mind.",
-        video: "./reels/video1.mp4",
-        userprofile: "https://images.unsplash.com/photo-1613915617430-8ab0fd7c6baf?q=80&w=930&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    },
-    {
-        username: "designbysan",
-        likeCount: 9820,
-        isLiked: true,
-        commentCount: 184,
-        shareCount: 41,
-        isFollowed: false,
-        caption: "UI tip: Padding is personality. Give your elements some space.",
-        video: "./reels/video2.mp4",
+// const reels = [
+//     {
+//         username: "codewithayush",
+//         likeCount: 14820,
+//         isLiked: false,
+//         commentCount: 423,
+//         shareCount: 92,
+//         isFollowed: false,
+//         caption: "Dark mode > light mode. Change my mind.",
+//         video: "./reels/video1.mp4",
+//         userprofile: "https://images.unsplash.com/photo-1613915617430-8ab0fd7c6baf?q=80&w=930&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+//     },
+//     {
+//         username: "designbysan",
+//         likeCount: 9820,
+//         isLiked: true,
+//         commentCount: 184,
+//         shareCount: 41,
+//         isFollowed: false,
+//         caption: "UI tip: Padding is personality. Give your elements some space.",
+//         video: "./reels/video2.mp4",
 
-        userprofile: "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79"
-    },
-    {
-        username: "frontend.ninja",
-        likeCount: 22150,
-        isLiked: false,
-        commentCount: 612,
-        shareCount: 138,
-        isFollowed: true,
-        caption: "When flexbox finally aligns the way you wanted 😭🔥",
-        video: "./reels/video3.mp4",
+//         userprofile: "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79"
+//     },
+//     {
+//         username: "frontend.ninja",
+//         likeCount: 22150,
+//         isLiked: false,
+//         commentCount: 612,
+//         shareCount: 138,
+//         isFollowed: true,
+//         caption: "When flexbox finally aligns the way you wanted 😭🔥",
+//         video: "./reels/video3.mp4",
 
-        userprofile: "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126"
-    },
-    {
-        username: "travelwithriya",
-        likeCount: 54200,
-        isLiked: false,
-        commentCount: 822,
-        shareCount: 201,
-        isFollowed: false,
-        caption: "My solo Bali trip changed everything 🌴",
-        video: "./reels/video4.mp4",
+//         userprofile: "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126"
+//     },
+//     {
+//         username: "travelwithriya",
+//         likeCount: 54200,
+//         isLiked: false,
+//         commentCount: 822,
+//         shareCount: 201,
+//         isFollowed: false,
+//         caption: "My solo Bali trip changed everything 🌴",
+//         video: "./reels/video4.mp4",
 
-        userprofile: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
-    },
-    {
-        username: "daily.dev.quotes",
-        likeCount: 3120,
-        isLiked: true,
-        commentCount: 102,
-        shareCount: 55,
-        isFollowed: true,
-        caption: "Code. Sleep. Repeat. That’s the cycle.",
-        video: "./reels/video5.mp4",
+//         userprofile: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+//     },
+//     {
+//         username: "daily.dev.quotes",
+//         likeCount: 3120,
+//         isLiked: true,
+//         commentCount: 102,
+//         shareCount: 55,
+//         isFollowed: true,
+//         caption: "Code. Sleep. Repeat. That’s the cycle.",
+//         video: "./reels/video5.mp4",
 
-        userprofile: "https://images.unsplash.com/photo-1599566150163-29194dcaad36"
-    },
-    {
-        username: "fitnessbymegha",
-        likeCount: 27450,
-        isLiked: false,
-        commentCount: 540,
-        shareCount: 87,
-        isFollowed: true,
-        caption: "No gym? No problem. Do this 12-min workout at home.",
-        video: "./reels/video1.mp4",
+//         userprofile: "https://images.unsplash.com/photo-1599566150163-29194dcaad36"
+//     },
+//     {
+//         username: "fitnessbymegha",
+//         likeCount: 27450,
+//         isLiked: false,
+//         commentCount: 540,
+//         shareCount: 87,
+//         isFollowed: true,
+//         caption: "No gym? No problem. Do this 12-min workout at home.",
+//         video: "./reels/video1.mp4",
 
-        userprofile: "https://images.unsplash.com/photo-1595152772835-219674b2a8a6"
-    },
-    {
-        username: "streetfoodlover",
-        likeCount: 68000,
-        isLiked: true,
-        commentCount: 1304,
-        shareCount: 412,
-        isFollowed: false,
-        caption: "You won’t believe this burger exists 🤯🍔",
-        video: "./reels/video2.mp4",
+//         userprofile: "https://images.unsplash.com/photo-1595152772835-219674b2a8a6"
+//     },
+//     {
+//         username: "streetfoodlover",
+//         likeCount: 68000,
+//         isLiked: true,
+//         commentCount: 1304,
+//         shareCount: 412,
+//         isFollowed: false,
+//         caption: "You won’t believe this burger exists 🤯🍔",
+//         video: "./reels/video2.mp4",
 
-        userprofile: "https://images.unsplash.com/photo-1552058544-f2b08422138a"
-    },
-    {
-        username: "musicbytara",
-        likeCount: 14500,
-        isLiked: false,
-        commentCount: 267,
-        shareCount: 73,
-        isFollowed: true,
-        caption: "Late night vibes // piano version 🎹✨",
-        video: "./reels/video3.mp4",
+//         userprofile: "https://images.unsplash.com/photo-1552058544-f2b08422138a"
+//     },
+//     {
+//         username: "musicbytara",
+//         likeCount: 14500,
+//         isLiked: false,
+//         commentCount: 267,
+//         shareCount: 73,
+//         isFollowed: true,
+//         caption: "Late night vibes // piano version 🎹✨",
+//         video: "./reels/video3.mp4",
 
-        userprofile: "https://images.unsplash.com/photo-1502685104226-ee32379fefbe"
-    },
-    {
-        username: "techreviews101",
-        likeCount: 23180,
-        isLiked: true,
-        commentCount: 481,
-        shareCount: 120,
-        isFollowed: false,
-        caption: "The most underrated smartphone of 2024 📱",
-        video: "./reels/video4.mp4",
+//         userprofile: "https://images.unsplash.com/photo-1502685104226-ee32379fefbe"
+//     },
+//     {
+//         username: "techreviews101",
+//         likeCount: 23180,
+//         isLiked: true,
+//         commentCount: 481,
+//         shareCount: 120,
+//         isFollowed: false,
+//         caption: "The most underrated smartphone of 2024 📱",
+//         video: "./reels/video4.mp4",
 
-        userprofile: "https://images.unsplash.com/photo-1511367461989-f85a21fda167"
-    },
-    {
-        username: "learnanimations",
-        likeCount: 18740,
-        isLiked: false,
-        commentCount: 350,
-        shareCount: 92,
-        isFollowed: true,
-        caption: "GSAP can literally change your career. Start today.",
-        video: "./reels/video1.mp4",
+//         userprofile: "https://images.unsplash.com/photo-1511367461989-f85a21fda167"
+//     },
+//     {
+//         username: "learnanimations",
+//         likeCount: 18740,
+//         isLiked: false,
+//         commentCount: 350,
+//         shareCount: 92,
+//         isFollowed: true,
+//         caption: "GSAP can literally change your career. Start today.",
+//         video: "./reels/video1.mp4",
 
-        userprofile: "https://images.unsplash.com/photo-1494790108377-be9c29b29330"
+//         userprofile: "https://images.unsplash.com/photo-1494790108377-be9c29b29330"
+//     }
+// ];
+// var allReels = document.querySelector('.all-reels')
+
+// var sum = ''
+// reels.forEach(function (elem) {
+//     sum = sum + `<div class="reel">
+//           <video autoplay loop muted src="${elem.video}"></video>
+//           <div class="bottom">
+//             <div class="user">
+//               <img
+//                 src="${elem.userprofile}"
+//                 alt="">
+//               <h4>${elem.username}</h4>
+//               <button>${elem.isFollowed?'Unfollow':'Follow'}</button>
+//             </div>
+//             <h3>${elem.caption}</h3>
+//           </div>
+//           <div class="right">
+//             <div class="like">
+//               <h4 class="like-icon icon">${elem.isLiked?'<i class="love ri-heart-3-fill"></i>':'<i class="ri-heart-3-line"></i>'}</h4>
+//               <h6>${elem.likeCount}</h6>
+//             </div>
+//             <div class="comment">
+//               <h4 class="comment-icon icon"><i class="ri-chat-3-line"></i></h4>
+//               <h6>${elem.commentCount}</h6>
+//             </div>
+//             <div class="share">
+//               <h4 class="share-icon icon"><i class="ri-share-forward-line"></i></h4>
+//               <h6>${elem.shareCount}</h6>
+//             </div>
+//             <div class="menu">
+//               <h4 class="menu-icon icon"><i class="ri-more-2-fill"></i></h4>
+//             </div>
+//           </div>
+//         </div>`
+// })
+
+// allReels.innerHTML = sum
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+const p = document.querySelector("p")
+const text = p.innerText;
+
+const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+
+let iteration = 0
+
+function randomText() {
+  const str = text.split("").map((char, index) => {
+    if (index < iteration) {
+      return char
     }
-];
+    return characters.split("")[Math.floor(Math.random() * 52)]
+  }).join("")
 
-var sum = ''
-reels.forEach(function (elem) {
-    sum = sum + `<div class="reel">
-          <video autoplay loop muted src="${elem.video}"></video>
-          <div class="bottom">
-            <div class="user">
-              <img
-                src="${elem.userprofile}"
-                alt="">
-              <h4>${elem.username}</h4>
-              <button>${elem.isFollowed?'Unfollow':'Follow'}</button>
-            </div>
-            <h3>${elem.caption}</h3>
-          </div>
-          <div class="right">
-            <div class="like">
-              <h4 class="like-icon icon">${elem.isLiked?'<i class="love ri-heart-3-fill"></i>':'<i class="ri-heart-3-line"></i>'}</h4>
-              <h6>${elem.likeCount}</h6>
-            </div>
-            <div class="comment">
-              <h4 class="comment-icon icon"><i class="ri-chat-3-line"></i></h4>
-              <h6>${elem.commentCount}</h6>
-            </div>
-            <div class="share">
-              <h4 class="share-icon icon"><i class="ri-share-forward-line"></i></h4>
-              <h6>${elem.shareCount}</h6>
-            </div>
-            <div class="menu">
-              <h4 class="menu-icon icon"><i class="ri-more-2-fill"></i></h4>
-            </div>
-          </div>
-        </div>`
-})
+  p.innerText = str;
 
+  iteration += 0.2;
 
-var allReels = document.querySelector('.all-reels')
-
-allReels.innerHTML = sum
+}
+setInterval(randomText, 100)
