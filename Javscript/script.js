@@ -49,10 +49,10 @@
 // === checks both value and type, while == only checks value.
 
 
-// Understanding the conditonals in javascript - {`if` , `else` , `else if` , 
+// Understanding the conditonals in javascript - {`if` , `else` , `else if` ,
 // `Ternary Operator`, `switch-case`}
 
-// when you have to check something before running the code then we use 
+// when you have to check something before running the code then we use
 // the conditions to check it and conditional operators are used to check
 // those things.
 
@@ -108,13 +108,13 @@
 
 // let n = 75;
 // for (let i = 1; i <= 10 ; i++) {
-//   console.log(`${n} x ${i} = ${n * i}`); 
+//   console.log(`${n} x ${i} = ${n * i}`);
 // }
 
 // let count = 0;
 // for (let i = 1; i <= 15 ; i++) {
 //   if(i > 8){
-//     count++;   
+//     count++;
 //   }
 // }
 // console.log(count);
@@ -202,10 +202,10 @@
 // abcd(1, 2, 3, 4, 5)
 
 // Hoisting
-// it is a mechanism in JavaScript where variables and function 
+// it is a mechanism in JavaScript where variables and function
 // declarations are moved to the top of their scope before code execution.
 // abcd(); --> hello
-// function abcd(){         
+// function abcd(){
 //   console.log("hello");      Allowed function hoisting only
 
 // }
@@ -215,7 +215,7 @@
 // }
 // }
 
-// function abcd(a, b) {   // if we make parameters and don't 
+// function abcd(a, b) {   // if we make parameters and don't
 //   console.log(a, b);    // pass arguments, it will be undefined
 // }                       // and they are called the required parameters.
 // abcd()
@@ -231,7 +231,7 @@
 // function abcd(a,b,c = 0){
 //   console.log(a,b,c);
 //                           // when a value of any parameter is not passed,
-//                           // it will become undefined. To solve this we 
+//                           // it will become undefined. To solve this we
 //                           // assign the default values in case of no argument
 //                           // is passed by the user.
 // }
@@ -242,7 +242,7 @@
 
 // }
 // let arr = [1,2,3,4];
-// abcd(...arr);            // Spread Operator 
+// abcd(...arr);            // Spread Operator
 
 // function abcd(){
 //   function defg(){         // Nested Function : function inside the function
@@ -254,7 +254,7 @@
 
 // let a = 12;        // Gloabl Scope variable
 // function abcd(){
-//   let b = 13;       // Local Scope variable, 
+//   let b = 13;       // Local Scope variable,
 //                     // only be used inside the paarticular block of code
 //   function defg(){
 //     console.log(b);
@@ -263,7 +263,7 @@
 // }
 // abcd();
 
-// (function abcd(){   // Immediately Invoked Expression : used to make the 
+// (function abcd(){   // Immediately Invoked Expression : used to make the
 //                     // private variables
 // let balance = 8000;
 // })();
@@ -279,8 +279,8 @@
 
 // }
 
-// function abcd(){ // Higher Order function : A function that can return 
-//  another function Or it can accept the another 
+// function abcd(){ // Higher Order function : A function that can return
+//  another function Or it can accept the another
 // function in his parameter
 //  return function(){
 
@@ -296,7 +296,7 @@
 // function abcd(v){
 
 // }
-// abcd(function (){  // Function that is passed as an argument 
+// abcd(function (){  // Function that is passed as an argument
 // to a function is called Callback function
 
 // })
@@ -306,7 +306,7 @@
 // let b = function () {
 // }
 
-// Pure Function is the function that always returns the same output for the 
+// Pure Function is the function that always returns the same output for the
 // same input and does not have any side effects.
 // let a = 12;
 // function abcd(val){
@@ -318,7 +318,7 @@
 // abcd(a);
 // abcd(a);
 
-// Impure Funnction is the function that has side effects or 
+// Impure Funnction is the function that has side effects or
 // depends on external state.
 // let a = 12;
 // function abcd(val){
@@ -330,8 +330,8 @@
 // abcd(a)
 // abcd(a)
 
-// Closure is a concept in JavaScript where an inner function has access 
-// to the variables and parameters of its outer function, even after the 
+// Closure is a concept in JavaScript where an inner function has access
+// to the variables and parameters of its outer function, even after the
 // outer function has finished executing.
 // function abcd(){
 //   let a = 12;
@@ -342,7 +342,7 @@
 // abcd();
 
 // --------------------------------------------------------------------------------------------------------------------------------
-// Array is a data structure in JavaScript that stores multiple 
+// Array is a data structure in JavaScript that stores multiple
 // values in a single variable.
 // let arr = [5,6,8,3,1,9,0,8,4];
 // console.log(arr);
@@ -457,7 +457,7 @@
 // var box = document.querySelector("#box")
 
 // btn.addEventListener('click',function(){
-//   var c1 = Math.floor(Math.random() * 256) 
+//   var c1 = Math.floor(Math.random() * 256)
 //   var c2 = Math.floor(Math.random() * 256)
 //   var c3 = Math.floor(Math.random() * 256)
 //   box.style.backgroundColor = `rgb(${c1},${c2},${c3})`;
@@ -549,7 +549,7 @@
 //   setTimeout(()=>{
 //     love.style.opacity = 0;
 //     love.style.transform = "translate(-50%, -50%) scale(0)";
-//   },1000) 
+//   },1000)
 // })
 
 // var box = document.getElementById('box')
@@ -760,24 +760,27 @@
 // allReels.innerHTML = sum
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-const p = document.querySelector("p")
-const text = p.innerText;
+// const p = document.querySelector("p")
+// const text = p.innerText;
 
-const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+// const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
-let iteration = 0
+// let iteration = 0
 
-function randomText() {
-  const str = text.split("").map((char, index) => {
-    if (index < iteration) {
-      return char
-    }
-    return characters.split("")[Math.floor(Math.random() * 52)]
-  }).join("")
+// function randomText() {
+//   const str = text.split("").map((char, index) => {
+//     if (index < iteration) {
+//       return char
+//     }
+//     return characters.split("")[Math.floor(Math.random() * 52)]
+//   }).join("")
 
-  p.innerText = str;
+//   p.innerText = str;
 
-  iteration += 0.2;
+//   iteration += 0.2;
 
-}
-setInterval(randomText, 100)
+// }
+// setInterval(randomText, 100)
+
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
