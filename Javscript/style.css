@@ -15,18 +15,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  anchor-name: --some-anchor;
-  /* gap: 30px; */
+  gap: 30px;
 }
 
 .box {
   height: 200px;
   width: 200px;
+  transition: all 0.5s linear;
 
-}
-
-.box:hover {
-  anchor-name: --some-anchor;
 }
 
 .red {
@@ -43,17 +39,12 @@ body {
   background-color: blue;
 }
 
-.anchor {
-  background-color: #b9b9b9;
-  border-radius: 10px;
-  position: absolute;
-  top: anchor(top);
-  left: anchor(left);
-  bottom: anchor(bottom);
-  right: anchor(right);
-  pointer-events: none;
-  position-anchor: --some-anchor;
-  transition: all 0.3s linear;
-  mix-blend-mode: exclusion;
+.box:hover {
+  transform: scale(1.2) !important;
+
+}
+
+body:has(.box:hover) .box {
+  transform: scale(0.8);
 
 }
