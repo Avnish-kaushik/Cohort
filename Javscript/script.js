@@ -846,19 +846,101 @@
 // let alooChaat1 = new AlooChaat();
 // alooChaat1.pack();
 
-class Kitaab {
-    constructor(name, price, author, color) {
-        this.name = name;
-        this.price = price;
-        this.author = author;
-        this.color = color;
-    }
+// class Kitaab {
+//     constructor(name, price, author, color) {
+//         this.name = name;
+//         this.price = price;
+//         this.author = author;
+//         this.color = color;
+//     }
 
-    pannaPalto() { }
-    bookmarklagao() { }
-    kitaabBandh() { }
-}
+//     pannaPalto() { }
+//     bookmarklagao() { }
+//     kitaabBandh() { }
+// }
 
-let k1 = new Kitaab("hindi", 250, 'rajat', 'yellow');
-let k2 = new Kitaab("maths", 250, 'rohit', 'red');
-let k3 = new Kitaab("physics", 250, 'raj', 'blue');
+// let k1 = new Kitaab("hindi", 250, 'rajat', 'yellow');
+// let k2 = new Kitaab("maths", 250, 'rohit', 'red');
+// let k3 = new Kitaab("physics", 250, 'raj', 'blue');
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// let obj = {
+//     name: 'avit',
+//     age: 24,
+//     email: 'avit@123',          // object making
+//     password: '123',
+// }
+
+// console.log(obj);
+
+// class Bottel {
+//     constructor() {
+//         this.color = 'blue';
+//         this.material = 'steel';
+//         this.price = 800;
+//         this.company = 'Milton';
+//     }
+
+//     thandaKarega() { }
+//     garamKarega() { }
+// }
+
+// let b1 = new Bottel()
+// console.log(b1);
+// this is a special keyword and it always refer the immediate surrounding object
+// ye apne nearest object ko store karta hai or uske refernce ko apne pas rakhta hai
+// global m this ki value -> window object
+// console.log(this);
+// object m this ki value -> obj
+// let obj1 = {
+//     name: 'avi',
+//     fnc: function () {
+//         console.log(this);
+
+//     }
+// }
+// obj1.fnc()
+// constructor m this ki value -> obj
+// console.log(this);
+// arrow function m this ki value -> window object
+// function m this ki value -> window object
+// function abc() {
+//     console.log(this);
+
+// }
+// abc()
+// arrow function
+// let c = () => {
+//     console.log(this);
+
+// }
+// c()
+// arrow function ki wajah se window object ki value this m aa gayi isko lexical this kehte hai
+
+// global -> window
+// function -> window
+// es5 function inside object -> object
+// es6 function iniside object -> window
+// es5 function inside es5 function inside object -> window
+// es6 function inside es5 function inside object -> object
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// call -> function chalata h and this ki value set krta h
+// apply -> whai krta h jo call krta h and arguments mein phali 
+//         value this ki hoti hai baaki saare arguments aaray mein jaate hai
+// bind -> wahi krta h jo call krta h and aapko naya fnc deta h
+
+// let obj = {
+//     name: 'avi',
+// };
+
+// function abcd() {
+//     console.log(this);
+
+// }
+// abcd.call(obj);
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
