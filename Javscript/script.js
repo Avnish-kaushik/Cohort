@@ -784,3 +784,81 @@
 
 //---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+// let obj = {
+//   name: "avi",
+//   age: 23,
+//   email:'avi@123',
+//   password: "avi@123",
+// }
+
+// class BiscuitMaker {
+//     constructor() {
+//         this.name = 'ParleG';
+//         this.price = 5;
+//     }
+// }
+
+// let biscuit1 = new BiscuitMaker();
+// let biscuit2 = new BiscuitMaker();
+// let biscuit3 = new BiscuitMaker();
+// let biscuit4 = new BiscuitMaker();
+
+// class AlooChaat {
+//     construtor() {
+//         this.name = 'AlooChaat';
+//         this.price = 50;
+//         this.oil = '5ml';
+//         this.maasale = ['haldi', 'lal mirch', 'garam masala']
+//         this.pani = true;
+//     }
+
+//     pack() {
+//         console.log("aloo chaat packed");
+
+//     }
+
+//     unpacked() {
+//         console.log("aloo chaat unpacked");
+
+//     }
+// }
+
+// class ChholeChaat {
+//     construtor() {
+//         this.name = 'AlooChaat';
+//         this.price = 50;
+//         this.oil = '5ml';
+//         this.maasale = ['haldi', 'lal mirch', 'garam masala']
+//         this.pani = true;
+//     }
+
+//     pack() {
+//         console.log("aloo chaat packed");
+
+//     }
+
+//     unpacked() {
+//         console.log("aloo chaat unpacked");
+
+//     }
+// }
+
+// let alooChaat1 = new AlooChaat();
+// alooChaat1.pack();
+
+class Kitaab {
+    constructor(name, price, author, color) {
+        this.name = name;
+        this.price = price;
+        this.author = author;
+        this.color = color;
+    }
+
+    pannaPalto() { }
+    bookmarklagao() { }
+    kitaabBandh() { }
+}
+
+let k1 = new Kitaab("hindi", 250, 'rajat', 'yellow');
+let k2 = new Kitaab("maths", 250, 'rohit', 'red');
+let k3 = new Kitaab("physics", 250, 'raj', 'blue');
