@@ -943,4 +943,56 @@
 
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+// let Animal = class {
+//     constructor() {
+//         this.name = 'DP singh';       // CLASS EXPRESSION
+//         this.breed = 'desi kutta'
+//     }
+// }
 
+// let a1 = new Animal()
+
+// console.log(a1);
+
+// Hoisting is not possible in the classes means that you can not use the class before 
+
+// class Animal {
+//     constructor() {
+//         this.hands = 2;
+//         this.legs = 2;
+//         this.breed = 'dog';
+//     }
+//     eat() { }
+//     breathe() { }
+
+// }
+
+// class Kekda extends Animal {      // INHERITANCE OF ANIMAL CLASS
+//     constructor() {
+//         super();            // ye animal class ke constructor ko call karega
+//         this.legs = 8;
+//         this.hands = 0;
+//     }
+//     susu() { }
+// }
+// let k1 = new Kekda();
+
+class Animal {
+    constructor() {
+        this._age = 100;
+    }
+    set age(val){
+        if(val < 0){
+            console.error("not possible");
+            return;
+        }
+        this._age = val;
+        return this._age;
+    }
+
+    get age(){
+        return this._age;
+    }
+}
+let a1 = new Animal();
+a1.age = 15;
