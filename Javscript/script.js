@@ -977,22 +977,119 @@
 // }
 // let k1 = new Kekda();
 
-class Animal {
-    constructor() {
-        this._age = 100;
-    }
-    set age(val){
-        if(val < 0){
-            console.error("not possible");
-            return;
-        }
-        this._age = val;
-        return this._age;
-    }
+// class Animal {
+//     constructor() {
+//         this._age = 100;
+//     }
+//     set age(val){
+//         if(val < 0){
+//             console.error("not possible");
+//             return;
+//         }
+//         this._age = val;
+//         return this._age;
+//     }
 
-    get age(){
-        return this._age;
-    }
-}
-let a1 = new Animal();
-a1.age = 15;
+//     get age(){
+//         return this._age;
+//     }
+// }
+// let a1 = new Animal();
+// a1.age = 15;
+
+// let user = {
+//     name: 'Avi',
+//     email: 'avi@123',
+//     login: function () {
+//         console.log('logged in');
+//     },
+//     logout: function () {
+//         console.log('logged out');
+//     }
+// }
+// user.login();
+
+// class User {
+//     constructor(name, email) {
+//         this.name = this.name;
+//         this.email = email;
+//     }
+//     loggedIn() {
+//         console.log("logged in");
+
+//     }
+//     loogedOut() {
+//         console.log("logged Out");
+
+//     }
+// }
+
+// let user1 = new User('Avi', 'avi@123');
+// console.log(user1);
+// user1.loggedIn();
+
+// let product = {
+//     name: "cap",
+//     price: 3000,
+//     discount: function () {
+//         return this.price - 200;
+//     }
+// }
+// console.log(product.discount());
+
+// class Car {
+//     constructor(brand, speed) {
+//         this.brand = brand;
+//         this.speed = speed;
+
+//     }
+//     drive() {
+//         console.log(this.brand + ' car is running with ' + this.speed);
+
+//     }
+// }
+// let car1 = new Car('BMX', 200);
+// car1.drive();
+// let car2 = new Car('Audi', 250);
+// car2.drive();
+
+// class Student {
+//     constructor(name, rollno) {
+//         this.name = name;
+//         this.rollno = rollno;
+//     }
+//     introduce() {
+//         return this.name + " " + this.rollno;
+
+//     }
+// }
+// let s1 = new Student('avi', 123);
+
+// let obj = {
+//     sayName: function () {
+//         console.log(this);
+//     },
+//     sayArrowName: () => {
+//         console.log(this);
+//     }
+// }
+// obj.sayName()
+// obj.sayArrowName();
+
+// function Animal() {
+//     this.name = 'tiger'
+// }
+// let a1 = new Animal();
+// console.log(a1);
+
+// function abcd() {
+//     console.log(this.name);
+// }
+// let obj = {
+
+//     name: 'Avi'
+// }
+// abcd.call(obj);
+// abcd.apply(obj);
+
+ 
