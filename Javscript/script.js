@@ -1091,5 +1091,30 @@
 // }
 // abcd.call(obj);
 // abcd.apply(obj);
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------    
 
- 
+// js => single threaded language h
+// ek kaam ek baar mein kar payegi
+// /Synchronous approach
+
+// asynchronous programming => ek saath 2 kaam kar payegi
+// jo kaam time legi usse side m chala kr baaki kaam continue rakhna
+// callback, promises, async & await
+
+// callback => ek function jo turant nahi chalega ye jab chalega jab aapka
+// koi kaam complete hoga
+
+// setTimeout(function () {
+//     console.log('hey');
+
+// }, 3000);
+// console.log('hello');
+
+// function abcd(fn) {
+//     fn();
+// }
+// abcd(function () {
+//     console.log('hey');
+// })
+
+
