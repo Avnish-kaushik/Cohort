@@ -1116,5 +1116,8 @@
 // abcd(function () {
 //     console.log('hey');
 // })
-
+// situation -> github se data laao-------amitseDetailsLaao(address, cb)
+// getUserDetails(username, cb)-----------dukaanDhundo(details, cb)
+// getAllRepos(userid, cb)----------------samaanlelo(samaanList, cb)
+// getRepoDetails(repoid, cb)-------------gharAaajaao(address, cb)
 
