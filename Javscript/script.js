@@ -1121,3 +1121,48 @@
 // getAllRepos(userid, cb)----------------samaanlelo(samaanList, cb)
 // getRepoDetails(repoid, cb)-------------gharAaajaao(address, cb)
 
+// function afterDelay(time, cb) {
+//     setTimeout(function () {
+//         cb();
+//     }, time)
+// }
+// afterDelay(3000, function () {
+//     console.log('hey');
+// })
+
+// function getUser(username, cb) {
+//     setTimeout(() => {
+//         cb({ username: username, id: 123 })
+//     }, 1000);
+// }
+// getUser('avi', function (user) {
+//     console.log(user);
+// })
+
+// function loginUser(username, cb) {
+//     console.log("Logging in User...");
+//     setTimeout(() => {
+//         cb({ id: 123, username: "Avi" });
+//     }, 1000);
+// }
+// function fetchPermission(id, cb) {
+//     console.log("Fetching Permissions...");
+//     setTimeout(() => {
+//         cb(["read", "write", "delete"]);
+//     }, 2000);
+// }
+// function loadDashboard(permissions, cb) {
+//     console.log("Loading Dashboard...");
+//     setTimeout(() => {
+//         cb();
+//     }, 2000);
+// }
+
+// loginUser("Avi", function (user) {
+//     fetchPermission(user.id, function (permissions) {
+//         loadDashboard(permissions, function () {
+//             console.log("✅ Dashboard Loaded");
+//         });
+//     });
+// });
+
