@@ -1166,3 +1166,31 @@
 //     });
 // });
 
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------    1
+// promises
+// async await
+// setTimeout and setInterval
+
+// fetch se kisi bhi url par jaa sakte hai
+// fetch('https://randomuser.me/api/')
+//     .then((raw) => raw.json())
+//     .then((data) => {
+//         console.log(data.result);
+
+//     })
+//     .catch((err) => {
+//         console.log(err);
+
+//     })
+// fetch ka data readable nahi hota
+// usey json bannake readable karte hai
+// iske baad jo data milta hai  vo readable hota hai
+
+// async and await
+
+// async function abcd() {
+//     let raw = await fetch('https://randomuser.me/api/');
+//     let data = await raw.json();
+//     console.log(data);
+// }
+// abcd()
