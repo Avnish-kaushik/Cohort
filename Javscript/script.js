@@ -1194,3 +1194,80 @@
 //     console.log(data);
 // }
 // abcd()
+
+
+// -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// Introduction to Error Handling
+// -common types of error:
+// 1. Syntax Error
+// 2. Runtime Error
+// 3. Logical Error
+// Understanding the Error object - [message, name, stack, fileName, lineNumber]
+// Handling exceptions -> try and catch , throw, finally
+// Error handling in Asynchronous code
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// Scenario 1: Weather Dashboard with Error Handling   3b6d130886c295f7dffbfa6cb0030ca3
+
+// Build a small weather dashboard that fetches current weather data from
+// any public weather API (such as OpenWeatherMap).
+// You must make the API request asynchronously using fetch with async/await.
+
+// If API request fails (for example , due to an invalid city name),
+// you must handle the error using try/catch.
+
+// Additionally, create and throw custom errors based on weather conditions.
+// For Example: If the temperature is extremely high or extremely low, throw error
+// and handle it properly in your code.
+
+// let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}`;
+
+// async function getWeather(city) {
+//     try {
+//         let apikey = `3b6d130886c295f7dffbfa6cb0030ca3`;
+//         let raw = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}`);
+//         if (!raw.ok) {
+//             throw new Error(`City ${city} is not valid`);
+//         }
+//         let realData = await raw.json();
+//         console.log(realData);
+//     }
+//     catch (err) {
+//         console.error(err.message);
+
+//     }
+// }
+// getWeather("Meerutiya");
+
+// =================================================
+
+// const users = [
+//     "aakash@female.com",
+//     "aditi@female.com",
+//     "chamgaadad@pakchi.com"
+// ];
+
+// function sendEmail(email) {
+//     return new Promise((resolve, reject) => {
+//         let time = Math.floor(Math.random() * 5)
+//         setTimeout(() => {
+//             let probability = Math.floor(Math.random() * 10);
+//             if (probability <= 5) {
+//                 resolve("Email sent successfully...")
+//             } else {
+//                 reject("Please try again later ")
+//             }
+
+//         }, time * 1000);
+//     })
+// }
+
+// sendEmail("aditi@female.com").then(function (res) {
+//     console.log(res)
+// })
+//     .catch(function (err) {
+//         console.log(err)
+//     })
+
+// ==================================================================
+
