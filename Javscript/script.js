@@ -1239,7 +1239,7 @@
 // }
 // getWeather("Meerutiya");
 
-// =================================================
+// ===================================================================
 
 // const users = [
 //     "aakash@female.com",
@@ -1270,4 +1270,22 @@
 //     })
 
 // ==================================================================
+
+// debouncing and throttling
+
+// function debounce(fn, delay){
+//     let timer
+//     return function () {
+//         clearTimeout(timer);
+//         timer = setTimeout(fn, delay);
+//     }
+// }
+
+// ======================================================================
+
+// Json stringify and parse
+// JSON - Javascript Object Notation
+
+// JSON.stringify({name: "Avi", age: 28, isStudent: false})  // json banate h
+// JSON.parse({name: "Avi", age: 28, isStudent: false})  // json se object banate h
 
