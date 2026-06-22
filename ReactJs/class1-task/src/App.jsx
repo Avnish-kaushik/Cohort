@@ -4,7 +4,7 @@ import Section from "./components/Section";
 
 const App = () => {
   return (
-    <div>
+    <div >
       <Navbar />
       <Section />
     </div>
