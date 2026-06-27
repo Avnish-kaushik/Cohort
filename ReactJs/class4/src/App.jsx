@@ -7,12 +7,12 @@ const App = () => {
 
   const user1 = {
     name: 'Samarth',
-    age:20,
-    gender:'Male'
+    age: 20,
+    gender: 'Male'
   }
 
-  const user2={
-    name:'Sherya',
+  const user2 = {
+    name: 'Sherya',
     age: 24,
     gender: 'Female'
   }
@@ -20,14 +20,15 @@ const App = () => {
   const user3 = {
     name: 'Anmol',
     age: 18,
-    gender : 'Male'
+    gender: 'Male'
   }
 
   return (
     <>
-      {user1.gender == 'Male' ? <Men user = {user1}/> : <Women/>}
-      {user2.gender == 'Female' ? <Women user = {user2}/> : <Men/>}
-      {user3.gender == 'Male' ? <Men user = {user3}/> : <Women/>}
+      <Navbar title={'My own website'} links={['Home', 'About', 'Contact']} />
+      {user1.gender == 'Male' ? <Men user={user1} /> : <Women />}
+      {user2.gender == 'Female' ? <Women user={user2} /> : <Men />}
+      {user3.gender == 'Male' ? <Men user={user3} /> : <Women />}
     </>
   )
 }
