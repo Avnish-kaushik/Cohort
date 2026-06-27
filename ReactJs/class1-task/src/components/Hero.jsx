@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div className='relative overflow-hidden w-full h-[88vh] flex flex-col items-center justify-center gap-4 rounded-3xl bg-blue-300'>
+        <div className='relative overflow-hidden w-full h-[88vh] flex flex-col items-center justify-center gap-4 rounded-3xl'>
             <img
                 className="absolute inset-0 w-full h-full object-cover bg-black/20"
                 src="https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
