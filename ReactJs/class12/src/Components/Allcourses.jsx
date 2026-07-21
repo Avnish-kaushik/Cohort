@@ -1,11 +1,11 @@
 import React from 'react'
 import Course from './Course'
 
-const Allcourses = (props) => {
+const Allcourses = () => {
   return (
     <div>
       Allcourses
-      <Course courseData={props.courseData} />
+      <Course />
       <Course />
       <Course />
       <Course />
