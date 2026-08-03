@@ -1,7 +1,7 @@
 import React from 'react'
 import './dock.scss'
 
-const Dock = ({ windowsState, setWindowsState }) => {
+const Dock = ({ setWindowsState }) => {
   return (
     <footer className="dock">
       <div

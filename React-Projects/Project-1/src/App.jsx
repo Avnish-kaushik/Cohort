@@ -8,7 +8,7 @@ import Note from './components/windows/Note.jsx'
 import Resume from './components/windows/Resume.jsx'
 import Spotify from './components/windows/Spotify.jsx'
 import Cli from './components/windows/Cli.jsx'
-import github from 'react-syntax-highlighter/dist/esm/styles/hljs/github.js'
+// import github from 'react-syntax-highlighter/dist/esm/styles/hljs/github.js'
 
 const App = () => {
   const [windowsState, setWindowsState] = useState({

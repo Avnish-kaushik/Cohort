@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-rnd": "^10.5.3",
+    "sass": "^1.102.0"
+  }
+}
